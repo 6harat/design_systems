@@ -31,7 +31,7 @@
                             = 0.2 * (20K * 24 * 3600) * (500)
                             = 0.2 * (1.7B) * (500)
                             = 170GB
-* api endpoints:
+* api design:
     + read  : GET /url/:id
     + create: POST /url
     + update: PUT /url/:id
@@ -49,7 +49,7 @@
         email
         create_date
         last_login
-* design architecture and algorithm:
+* architecture and algorithm:
     + encoding:
         - num keys available = (num of chars in base 64 encoding) * (len of hash)
             for key length 6 = 64^6 = 68719476736 ≈ 68B
