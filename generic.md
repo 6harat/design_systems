@@ -3,7 +3,8 @@
     + SOLID:
         - Single Responsibility Principle: a class should only have one reason to change
         - Open-Closed Principle: entities should be open for extension, closed for modification
-        - Liskov Substitution Principle: objects in a program should be replaceable with the mplementation of their subtypes without altering the correctness of the program
+        - Liskov Substitution Principle: objects in a program should be replaceable with the
+          implementation of their subtypes without altering the correctness of the program
         - Interface Segregation: multiple specific interfaces are better than single generic one
         - Dependency Injection: entities should depend upon abstractions and not concretions
     + KISS: Keep It Simple, Stupid
